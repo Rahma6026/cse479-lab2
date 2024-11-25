@@ -1,0 +1,126 @@
+
+.heading {
+    text-decoration: underline;
+    color: #A4A400;
+    background-color: #f0f0f0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+
+p {
+    color: #A4A400;
+    font-size: 14px; 
+    font-family: Georgia, Garamond, serif;
+}
+
+.recipe-details-text, .black-text, .text-black {
+    color: black;
+}
+
+
+.line {
+    height: 1px;
+    background-color: #5a5a5a;
+    margin: 20px 0;
+}
+
+
+.ingredients-heading, .directions-heading, .user-comments-heading {
+    text-decoration: underline;
+    color: #A4A400;
+}
+
+body {
+    background-image: url('silverware.jpg');
+    background-position: center;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    margin: 20px;
+}
+
+
+.ingredients-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.ingredients-list li {
+    margin-left: 1.2em;
+    display: flex;
+    align-items: center;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    margin-bottom: 15px; /* Adds space between the list items */
+}
+
+.ingredients-list img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Add spacing between tsp and salt */
+.ingredients-list .highlight {
+    margin-right: 10px; /* Adjusts the space after the abbreviation */
+}
+
+.highlight {
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+
+.link, .links a {
+    color: #A4A400;
+    text-decoration: none;
+}
+
+.links h2 {
+    text-decoration: underline;
+    color: #A4A400;
+}
+
+.text-indent-4em {
+    margin-left: 2em;
+}
+
+.text-indent-12em {
+    margin-left: 6em;
+}
+
+.directions ul {
+    list-style-type: none;
+    padding-left: 20;
+}
+
+footer p {
+    color: black; 
+    font-size: 14px; 
+}
+
+/* Tooltip styling (optional for extra customization) */
+span[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+pre.copyright {
+    font-family: monospace;
+    text-align: center;
+    white-space: pre;
+    font-size: 12pt;
+    margin-top: 20px;
+}
+
